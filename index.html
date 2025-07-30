@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LithalaLMS Agent</title>
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  <style>
+    /* Hide Botpress branding footer */
+    #bp-web-widget .powered-by {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    window.botpressWebChat.init({
+      host: 'https://cdn.botpress.cloud/webchat/v1',
+      botId: 'a1799abe-eede-47a0-a545-b45226ed083e',
+      clientId: 'a1799abe-eede-47a0-a545-b45226ed083e',
+      showPoweredBy: false,
+      botName: 'LithalaLMS Agent',
+      themeName: 'prism',
+      themeColor: '#1a2a55',
+      enableReset: true
+    });
+  </script>
+</body>
+</html>
