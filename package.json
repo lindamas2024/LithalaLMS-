@@ -1,7 +1,7 @@
 {
   "name": "lithalalms-web",
   "version": "1.0.0",
-  "description": "LithalaLMS web single folder",
+  "description": "LithalaLMS single-folder web app",
   "main": "server.js",
   "type": "module",
   "scripts": {
